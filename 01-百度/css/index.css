@@ -1,0 +1,83 @@
+body {
+    background-image: url("../images/bg.jpg");
+    background-size: 100% 750px;
+}
+
+.content {
+    /*background-color: red;*/
+    width: 700px;
+    margin: 100px auto 0px;
+}
+
+.content .logo {
+    text-align: center;
+}
+
+.content .logo img {
+    width: 270px;
+    height: 129px;
+}
+
+.content .nav {
+     text-align: center;
+ }
+
+.content .nav ul {
+    /*background-color: blue;*/
+    list-style: none; /* 去除左边的圆点 */
+    display: inline-block;
+    padding-left: 0px;
+ }
+
+.content .nav ul li {
+    /*background-color: yellow;*/
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.content .nav ul li a {
+    font-size: 17px;
+    color: white;
+}
+
+.content .nav ul li a.active {
+    text-decoration: none;
+}
+
+.content .search-container {
+    text-align: center;
+}
+
+.content .search-container .search {
+    background-color: green;
+    clear: both;
+    height: 40px;
+    display: inline-block;
+}
+
+.content .search-container .search input {
+    width: 450px;
+    height: 100%;
+    font-size: 18px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    border: 0px;
+    float: left;
+}
+
+.content .search-container .search button {
+    height: 100%; /* 完整等于父标签的高度 */
+    background-color: #3388FF;
+    color: white;
+    font-size: 17px;
+    border: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+}
+
+.content .search-container .search button:hover {
+    cursor: pointer; /* 鼠标光标变为手指 */
+}

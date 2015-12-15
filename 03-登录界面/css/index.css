@@ -1,0 +1,78 @@
+body {
+    background-color: #F2F2F2;
+}
+
+.content {
+    margin-top: 150px;
+}
+
+.content .panel {
+    background-color: white;
+    width: 302px;
+    text-align: center;
+    margin: 0px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.content .panel .group {
+    text-align: left;
+    width: 262px;
+    margin: 0px auto 20px;
+}
+
+.content .panel .group label {
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.content .panel .group input {
+    display: block;
+    width: 250px;
+    height: 30px;
+    border: 1px solid #ddd;
+    padding: 0px 0px 0px 10px;
+    font-size: 16px;
+}
+
+.content .panel .group input:focus{
+    /*border: 1px solid #CC865E;*/
+    border-left: 1px solid #CC865E;;
+}
+
+.content .panel .login-btn button {
+    background-color: #CC865E;
+    width: 260px;
+}
+.content .panel .login-btn button:hover {
+    background-color: white;
+    color:  #CC865E;
+    border: 1px solid #CC865E;
+}
+
+.content .reg {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.content .reg button {
+    background-color: #466BAF;
+    width: 180px;
+}
+
+.content .reg button:hover {
+    background-color: white;
+    color: #466BAF;
+    border: 1px solid #466BAF;
+}
+
+.content button {
+    height: 30px;
+    color:  white;
+    font-size: 18px;
+    border: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
